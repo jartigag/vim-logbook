@@ -8,7 +8,7 @@ endfunction
 ""
 " Insert a timestamp under the cursor
 function! logbook#Timestamp()
-	execute "normal! i" . strftime("%c") . "\n---\n\<ESC>"
+	execute "normal! GA\n\n" . strftime("%c") . "\n---\n\<ESC>"
 endfunction
 
 
