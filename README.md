@@ -1,3 +1,11 @@
+I (@jartigag) forked James Routley's [vim-logbook](https://github.com/jamesroutley/vim-logbook) and tweaked it a bit:  
+- Changed slightly how the function `logbook#Timestamp()` works  
+- Added the `:Round` command, to round time to quarter-hour (example: 00:17 -> 00:15)
+
+The original README is shown below.
+
+---
+
 # vim-logbook
 
 vim-logbook is a minimalist vim plugin which makes keeping a programming logbook
